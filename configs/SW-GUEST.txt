@@ -1,0 +1,15 @@
+! SW-GUEST - Cisco 2960 Access Switch
+hostname SW-GUEST
+!
+vlan 50
+ name GUEST
+!
+interface FastEthernet0/1
+ switchport mode trunk
+!
+! Fa0/2 ke Access Point (Port 0 AP: speed dan duplex Auto)
+interface FastEthernet0/2
+ switchport mode access
+ switchport access vlan 50
+!
+end

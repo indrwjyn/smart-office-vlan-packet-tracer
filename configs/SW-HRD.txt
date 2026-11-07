@@ -1,0 +1,14 @@
+! SW-HRD - Cisco 2960 Access Switch
+hostname SW-HRD
+!
+vlan 40
+ name HRD
+!
+interface FastEthernet0/1
+ switchport mode trunk
+!
+interface range FastEthernet0/2 - 5
+ switchport mode access
+ switchport access vlan 40
+!
+end

@@ -1,0 +1,14 @@
+! SW-FINANCE - Cisco 2960 Access Switch
+hostname SW-FINANCE
+!
+vlan 30
+ name FINANCE
+!
+interface FastEthernet0/1
+ switchport mode trunk
+!
+interface range FastEthernet0/2 - 4
+ switchport mode access
+ switchport access vlan 30
+!
+end

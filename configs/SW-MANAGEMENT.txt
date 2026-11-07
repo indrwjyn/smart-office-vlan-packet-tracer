@@ -1,0 +1,14 @@
+! SW-MANAGEMENT - Cisco 2960 Access Switch
+hostname SW-MANAGEMENT
+!
+vlan 10
+ name MANAGEMENT
+!
+interface FastEthernet0/1
+ switchport mode trunk
+!
+interface range FastEthernet0/2 - 4
+ switchport mode access
+ switchport access vlan 10
+!
+end

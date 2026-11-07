@@ -1,0 +1,14 @@
+! SW-STAFF - Cisco 2960 Access Switch
+hostname SW-STAFF
+!
+vlan 20
+ name STAFF
+!
+interface FastEthernet0/1
+ switchport mode trunk
+!
+interface range FastEthernet0/2 - 5
+ switchport mode access
+ switchport access vlan 20
+!
+end
