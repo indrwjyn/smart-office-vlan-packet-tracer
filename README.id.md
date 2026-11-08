@@ -8,7 +8,7 @@ Simulasi jaringan kantor pintar di Cisco Packet Tracer. Jaringan dibagi per depa
 
 ## Latar Belakang
 
-Pada kantor yang semua perangkatnya satu jaringan, tamu yang tersambung ke WiFi bisa menjangkau server absensi dan database keuangan. Proyek ini memisahkan jaringan per departemen, lalu membatasi siapa yang boleh mengakses apa. Proyek dikerjakan sebagai tugas akhir praktikum Jaringan Komputer.
+Pada kantor yang semua perangkatnya satu jaringan, tamu yang tersambung ke WiFi bisa menjangkau server absensi dan database keuangan. Proyek ini memisahkan jaringan per departemen, lalu membatasi siapa yang boleh mengakses apa.
 
 ## Fitur Utama
 
