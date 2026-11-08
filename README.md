@@ -8,7 +8,7 @@ A smart office network simulation built in Cisco Packet Tracer. The network is s
 
 ## Background
 
-In an office where every device shares one flat network, a guest on the WiFi can reach the attendance server and the finance database. This project separates the network by department, then controls who can access what. It was built as the final project of a Computer Networks lab course.
+In an office where every device shares one flat network, a guest on the WiFi can reach the attendance server and the finance database. This project separates the network by department, then controls who can access what.
 
 ## Key Features
 
