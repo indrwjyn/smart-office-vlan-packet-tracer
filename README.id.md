@@ -1,6 +1,6 @@
 # Smart Office Network berbasis VLAN dan Inter-VLAN Routing
 
-[English](README.md) | **Bahasa Indonesia**
+🇮🇩 Bahasa Indonesia | [🇬🇧 English](README.md)
 
 Simulasi jaringan kantor pintar di Cisco Packet Tracer. Jaringan dibagi per departemen memakai VLAN, routing antar VLAN dilakukan di multilayer switch, guest WiFi mendapat IP lewat DHCP, dan ACL dipakai untuk membatasi akses Guest serta melindungi data Finance.
 
