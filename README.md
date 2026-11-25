@@ -1,6 +1,6 @@
 # Smart Office Network with VLANs and Inter-VLAN Routing
 
-**English** | [Bahasa Indonesia](README.id.md)
+[🇮🇩 Bahasa Indonesia](README.id.md) | 🇬🇧 English
 
 A smart office network simulation built in Cisco Packet Tracer. The network is segmented per department with VLANs, inter-VLAN routing runs on a multilayer switch, guest WiFi gets its addresses through DHCP, and ACLs restrict guest access and protect finance data.
 
